@@ -1,0 +1,89 @@
+/********************/
+/* ----- Home ----- */
+/********************/
+
+.photo_area{
+	padding:1em;
+	/*height:330px;*/
+}
+
+.table_left{
+	font-weight:bold;
+	width:30%;
+}
+.t_indent{
+	text-indent:1em;
+}
+#site_menu{
+	border-bottom:#ff6600 2px solid;
+}
+#counter{
+	padding-top:3em;
+}
+ul{
+	list-style:none;
+}
+li{
+	line-height:1.5;
+}
+li > span{
+	font-weight:bold;
+}
+.selection{display: none;}
+#page-1 { display: block;}
+#header{
+	padding-bottom:2em;
+}
+#s3slider {
+    width: 820px; /* important to be same as image width */
+    height: 420px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+	margin: 0 auto;
+}
+ 
+#s3sliderContent {
+    width: 800px; /* important to be same as image width or wider */
+	height:400px;
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+	border:10px solid #fff;
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    right: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+	width:200px;
+	height:380px;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown
+                                at the bottom of the image
+    */
+	right: 0;
+}
+.s3sliderImage span strong{
+	font-size:120%;
+}
+.clear {
+    clear: both;
+}
+
+/* ----- Home End ----- */

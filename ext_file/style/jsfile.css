@@ -1,0 +1,80 @@
+/**********************/
+/* ----- JsFile ----- */
+/**********************/
+th{
+	font-style:italic;
+	background-color:#330000;
+}
+
+.js_contents{
+	font-style:italic;
+	padding-left:1ex;
+}
+.js_contents2{
+	color:#180000;
+	font-weight:bold;
+	font-style:italic;
+	padding-left:1ex;
+	background-color:#990000;
+}
+/* ----- Calendar Only ----- */
+
+.calendar{
+	font-style:italic;
+}
+
+.js_header{
+	font-size:1em;
+	width:14%;
+}
+.js_cell{
+	font-size:1.2em;
+	padding-left:.5ex;
+	cursor:pointer;
+}
+.js_cell2{
+	font-size:1.2em;
+	padding-left:.5ex;
+}
+.js_today2{
+	color:#660000;
+	background-color:#ff6600;
+}
+
+.js_sunday2{
+	color:#180000;
+	background-color:#ff6600;
+}
+.js_weekday2{
+	color:#180000;
+	background-color:#990000;
+}
+.js_saturday2{
+	color:#180000;
+	background-color:#0000ff;
+}
+
+/* ----- Calendar And Reservation ----- */
+.js_today{
+	color:#ff6600;
+	background-color:#660000;
+}
+
+.js_sunday{
+	color:#ff6600;
+}
+
+.js_saturday{
+	color:#0000ff;
+}
+
+/* ----- Reservation Only ----- */
+.reservation{
+	font-style:italic;
+}
+.month_name{
+	color:#ff6600;
+}
+.table_name{
+	width:27%;
+}

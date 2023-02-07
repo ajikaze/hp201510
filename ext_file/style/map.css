@@ -1,0 +1,69 @@
+/*******************/
+/* ----- Map ----- */
+/*******************/
+
+#map{
+	margin:0 10% 1em 10%;
+}
+
+#operate2 .map_navi{
+	margin-bottom:3em;
+}
+input{
+	color:#cc0000;
+	font-size:100%;
+	background-color:#000000;
+	border:none;
+}
+.map_navi{
+	width:80%;
+	margin:0 10% 1em 10%;
+	border:#330000 6px solid;
+	background-color:#180000;
+	font-size:.9em;
+}
+.map_navi .other{
+	background-color:#000000;
+	text-align:center;
+}
+.map_navi .current{
+	font-weight:bold;
+	text-align:center;
+	background-color:#330000;
+}
+.map_navi .oth{
+	text-align:left;
+	padding-left:1em;
+	background-color:#000000;
+}
+.map_navi .curr{
+	font-weight:bold;
+	padding-left:1em;
+	background-color:#330000;
+}
+
+.img_map_photo{
+	width:80%;
+	height:367px;
+	border:#660000 6px solid;
+	margin:0 0 1em 0;
+	opacity:0.7;
+}
+.try{
+	margin:0 10% 1em 10%;
+}
+
+.wdth1{
+	width:12em;
+}
+.wdth2{
+	width:18em;
+}
+.map{
+	font-size:1.7em;
+	border:none;
+}
+.btn{
+	text-decoration:none;
+}
+/* ----- Map End ----- */

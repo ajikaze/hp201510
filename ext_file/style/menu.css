@@ -1,0 +1,101 @@
+/********************/
+/* ----- Menu ----- */
+/********************/
+
+
+/*
+.small_block{
+	text-align:center;
+	margin:0;
+	padding:0;
+	background-color:#280000;
+	border:none;
+}
+*/
+#NEW{
+	text-align:left;
+	margin:0 6% 1em 6%;
+	padding:1em;
+	background-color:#180000;
+	border:#330000 2px solid;
+}
+	#NEW > h3{
+		margin:0 0 1em 0;
+	}
+.photo{
+	width:30%;
+	float:left;
+}
+.link{
+	width:33%;
+	text-indent:1em;
+	cursor:pointer;
+}
+.link2{
+	width:33%;
+	text-indent:1em;
+	color:#fff;
+	background:url("../../image/html_back.png");
+	font-weight:bold;
+	cursor:pointer;
+}
+.page_link{
+	font-size:1.7em;
+	font-weight:normal;
+	line-height:1.4;
+	margin:0 5%;
+	text-align:left;
+	text-indent:2em;
+}
+
+.margin_top{
+	margin-top:1em;
+}
+
+.kind{
+	font-style:italic;
+	font-size:1.3em;
+	background-color:#003300;
+}
+.option_title{
+	text-indent:1em;
+	font-style:italic;
+	font-weight:bold;
+	background-color:#330000;
+}
+.pibimupapu{
+	text-align:center;
+	background-color:#330000;
+}
+
+.item_name_drink{
+	width:27%;
+}
+.item_name{
+	width:33%;
+}
+.item_name_course{
+	width:40%;
+}
+.item_name_lunch{
+	width:27%;
+}
+.contents_lunch{
+	width:11%;
+}
+.variation{
+	width:35%;
+}
+.option{
+	width:40%;
+}
+.price{
+	width:8%;
+}
+.price_course{
+	width:15%;
+}
+.other_drinks{
+	margin-top:1em;
+}
+/* ----- Menu End ----- */

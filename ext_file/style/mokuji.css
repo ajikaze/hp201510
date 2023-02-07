@@ -1,0 +1,27 @@
+/***********************/
+/* ----- Mokuji ------ */
+/***********************/
+.headline{
+}
+
+.subheadline{
+	font-weight:bold;
+	background-color:#330000;
+	padding-left:.5ex;
+}
+.plus_minus{
+	width:5%;
+}
+.no{
+	width:15%;
+}
+.up_date{
+	width:25%;
+}
+.title{
+	width:55%;
+}
+.pointer{
+	cursor:pointer;
+	text-decoration:none;
+}

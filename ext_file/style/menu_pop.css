@@ -1,0 +1,27 @@
+img.photo{
+	float:left;
+	padding-right:1em;
+}
+.small_block{
+	padding:1em;
+}
+.sub_title{
+	margin:0 0 .5em 0;
+}
+.photo_area{
+	padding:1em;
+	height:186px;
+}
+.link{
+	width:33%;
+	text-indent:1em;
+	cursor:pointer;
+}
+.link2{
+	width:33%;
+	text-indent:1em;
+	color:#180000;
+	background-color:#660000;
+	font-weight:bold;
+	cursor:pointer;
+}

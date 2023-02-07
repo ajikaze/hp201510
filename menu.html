@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="Content-Script-type" content="text/javascript"/> 
+<meta name="robots" content="index,follow"/>
+<meta name="description" content="韓国料理味の街マッコウル、メニュー"/>
+<meta name="keywords" content="マッコウル,韓国料理,讃岐,香川,高松"/>
+<title>Menu : Makkouru Homepage</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="ext_file/style/common.css" type="text/css">
+<link rel="stylesheet" href="ext_file/style/menu.css" type="text/css">
+<script type="text/javascript" src="ext_file/function/jquery.js"></script>
+<script type="text/javascript" src="ext_file/function/menu_data_load.js"></script>
+<script language="JavaScript" src="ext_file/function/common_js.js"></script>
+<script language="JavaScript" src="ext_file/function/mokuji.js"></script>
+</head>
+
+<body id="top">
+	<div id="header">
+		<div>
+			<h1>MENU : Ajia Gohan Makkouru</h1>
+			<div class="resizeimg"><img id="entrance" src="image/new/harusame_chanpru.JPG" alt="2012年までのまっこうる入り口" /></div>
+		</div>
+		<div class="navigation">
+			<table class="navi_table">
+				<tr>
+					<td class="other"><a href="index.html">HOME</a></td>
+					<td class="other"><a href="tenpo.html">ABOUT</a></td>
+					<td class="current"><strong>MENU</strong></td>
+					<td class="other"><a href="menu_photo.html">PHOTO</a></td>
+				</tr>
+			</table>
+		</div>
+		<div id="mokuji" class="block">
+			<h3 class="mokuji_title"> 目　　　次 </h3>
+			<div class="link_exp">[+]を押してリンクをクリックして頂ければ、当該項目の説明にスクロールします。
+				<br />(JavaScriptの機能をONにしてください）
+			</div>
+			<div class="small_block">
+				<div id="tbl_mokuji">
+				</div>
+			</div>
+		</div>
+		<div id="pagelink" class="block">
+			<h3 class="page_link">◆◆◆ 料理写真のページは [ <a href="menu_photo.html">こちら</a> ] をクリックして下さい。</h3>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="output"></div>
+	</div>
+	<div id="footer">
+		<p id="copyright">Copyright &copy; Ajia Gohan Makkouru All Rights Reserved.</p>
+	</div>
+</body>
+</html>

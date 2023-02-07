@@ -1,0 +1,23 @@
+/*********************/
+/* ----- Tenpo ----- */
+/*********************/
+.tenpo_l{
+	width:20%;
+}
+
+img.photo{
+	float:left;
+}
+
+.photo_area{
+	padding:1em;
+}
+
+.photo_padding{
+	padding:1em;
+}
+.sub_title{
+	margin:0 0 .5em 0;
+}
+
+/* ----- Tenpo End ----- */

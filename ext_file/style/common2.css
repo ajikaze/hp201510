@@ -1,0 +1,313 @@
+﻿*{
+	margin:0;
+	padding:0;
+	vertical-align: baseline;
+}
+
+a{color:#990000;}
+a:hover{color:#ff3300;}
+a:visited{color:#660000;}
+
+html{
+	background-image:url("../../image/web_html_back2.png");
+	background-attachment:fixed;
+}
+body{
+	color:#900;
+	font-family:
+    	Verdana, Arial,
+    	'ヒラギノ角ゴ Pro W3',
+    	'Hiragino Kaku Gothic Pro',
+    	Osaka,
+    	'ＭＳ Ｐゴシック',
+    	sans-serif;
+	line-height:1.5;
+	margin:0 auto;
+	/*padding:0 50px;*/
+	width:80%;
+	padding-top:10px;
+	border-left:solid 20px #fff;
+	border-right:solid 20px #fff;
+	background-image:url("../../image/web_body_back2.png");
+}
+/********** Font, BackGround, Border ***********/
+h1{
+	font-size:2.5em;
+	font-style:italic;
+	float:right;
+	text-shadow : 1px 1px 1px;
+}
+
+h2{
+	font-size:2em;
+	font-style:italic;
+	border-bottom:#cc0000 2px solid;
+	margin-bottom:.5em;
+}
+
+h3{
+	font-size:2em;
+	border-bottom:#990000 3px double;
+	margin:0 5% 1em 5%;
+}
+
+h4{
+	font-size:1em;
+	background-color:#330000;
+	margin:0 5% 1em 5%;
+}
+
+h5{
+	text-align:left;
+	text-indent:1em;
+	text-decoration:underline;
+	line-height:1.5;
+	font-size:1.5em;
+	background-color:#330000;
+	cursor:pointer;
+	margin:0 5% 1em 5%;
+}
+
+p{
+	line-height:1.5;
+	font-size:1.7em;
+}
+
+
+table{
+	line-height:1.5;
+	width:88%;
+	margin:0 6% 1em 6%;
+	border:#330000 2px solid;
+}
+th{
+	font-size:1.5em;
+	font-style:italic;
+	background-color:#330000;
+}
+td{
+	font-size:1.7em;
+	text-align:left;
+	padding-left:.5ex;
+	background-color:#180000;
+}
+ul{
+	font-size:1.7em;
+	margin-left:1em;
+}
+dl{
+	font-size:1.7em;
+	line-height:1.3em;
+	margin-left:1em;
+}
+dd{
+	margin-left:1em;
+}
+/****************************************
+
+          List
+
+*****************************************/
+ul,ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul ul{
+	margin-left: 1em;
+}
+img#emb{
+	float:left;
+	display:block;
+	width:128px;
+	height:128px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+img#makkouru{
+	float:left;
+	display:block;
+	width:128px;
+	height:128px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+img#cover_photo{
+	/*display:block;
+	margin:0 auto;*/
+	margin-bottom:20px;
+	border:solid 10px #fff;
+	-webkit-box-shadow: rgba(128, 0, 0, 0.4) 0px 5px 5px;
+	-moz-box-shadow: rgba(128, 0, 0, 0.4) 0px 5px 5px;
+	box-shadow: rgba(128, 0, 0, 0.4) 5px 5px 5px;
+}
+#container{
+	width:90%;
+	margin:0 auto;
+}
+#header{
+	margin-top:0;
+}
+#contents{
+	padding-bottom:1em;
+	
+}
+
+#footer{
+	background-image:url("../../image/web_html_back3.png");
+}
+
+div.resizeimg img{
+	border:10px solid #fff;
+	width:80%;
+	max-width:800px;
+}
+div.photo_area img{
+	width:100%;
+	max-width:168px;
+}
+div.photo_area2 img{
+	width:100%;
+	max-width:224px;
+}
+div.page_title{
+	clear：both;
+}
+div.navigation{
+	clear:both;
+}
+ul.menu{
+	display:inline-block;
+	width:100%;
+	margin-bottom:20px;
+}
+.menu li{
+	text-align:center;
+	float:left;
+	display:block;
+	width:24%;
+	border-bottom:none;
+	margin-right:1%;
+	background-image:url("../../image/post_back.png");
+}
+	.menu li:last-child{
+		margin-right:0;
+	}
+	
+	.menu li a{  
+	    display:block;
+	    /*width:210px;*/
+	    padding:7px 10px;
+		text-shadow : 1px 1px 1px;
+	    text-decoration: none;
+		border-bottom:none;
+		
+	}
+	.menu li a:hover{  
+		color:#f00;
+		border-bottom:none;
+	} 
+	.menu li.current-menu-item a:hover{
+	color:#900;
+	}
+
+.subtitle{
+	text-indent:.5em;
+}
+
+.block{
+	padding-bottom:3em;
+}
+.small_block{
+	text-align:left;
+	margin:0 5% 1em 5%;
+	padding:0 1em;
+	background-image:url("../../image/post_back.png");
+}
+.clearfix:after{
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+.clearfix{
+	display:inline-block;
+}
+.clearfix{
+	display:block;
+}
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+}
+
+.sub_title{
+	text-indent:1em;
+	text-align:left;
+	font-weight:bold;
+}
+
+.final_update{
+	font-size:1.7em;
+	border-top:#ff6600 2px solid;
+	text-align:right;
+	padding:.5ex 1em 0 0;
+}
+.mokuji_title{
+	font-weight:bold;
+	line-height:1.4;
+}
+.mokuji_head{
+	text-align:left;
+	text-indent:1em;
+}
+.small_title{
+	font-style:italic;
+	font-weight:bold;
+	text-indent:1ex;
+	border-bottom-style:double;
+	background-color:#280000;
+}
+.update{
+	text-align:right;
+}
+.btn{
+	cursor:pointer;
+}
+.btn2{
+	color:#180000;
+	font-weight:bold;
+	background-color:#660000;
+	cursor:pointer;
+}
+.koumoku{
+	font-size:1.7em;
+	font-style:italic;
+	font-weight:bold;
+	text-align:left;
+	padding-left:10%;
+}
+.link_exp{
+	font-size:1.7em;
+	margin:0 6% 1em 6%;
+	padding:.5ex 0;
+	background-color:#330000;
+}
+.photo_exp{
+	float:left;
+	/*width:70%;*/
+}

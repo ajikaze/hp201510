@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<meta http-equiv="Content-Script-type" content="text/javascript"/> 
+<meta name="robots" content="index,follow"/>
+<meta name="description" content="韓国料理味の街マッコウル、メニュー"/>
+<meta name="keywords" content="マッコウル,韓国料理,讃岐,香川,高松"/>
+<title>TenpoShoukai : Makkouru Homepage</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="ext_file/style/common.css" type="text/css">
+<link rel="stylesheet" href="ext_file/style/tenpo.css" type="text/css">
+<link rel="stylesheet" href="ext_file/style/map.css" type="text/css">
+<script type="text/javascript" src="ext_file/function/common_js.js"></script>
+<script type="text/javascript"
+		  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyyQwNrb5XkWBnatU6YTQmUSpY8qRASzw&sensor=false">
+</script>
+<script type="text/javascript" src="ext_file/google_map/gmap.js">
+		</script>
+</head>
+
+<body id="top">
+	<div id="header">
+		<div class="page_title">
+			<h1>ABOUT : Ajia Gohan Makkouru</h1>
+			<div id="map-canvas">
+			</div>
+		</div>
+		<div class="navigation">
+			<table class="navi_table">
+				<tr>
+					<td class="other"><a href="index.html">HOME</a></td>
+					<td class="current"><strong>ABOUT</strong></td>
+					<td class="other"><a href="menu_photo.html">MENU & PHOTO</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="contents">
+		<div class="block">
+			<h2 class="subtitle">■ はじめまして</h2>
+			<div class="small_block">
+				<p>香川県高松市にて韓国料理を商いしております”アジアごはん　まっこうる”のホームページです。
+					<br />店主が気ままに製作しておりますので色々と粗相があるかと思いますが、
+					<br />気長にお付き合い下さいませ。
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<h2 class="subtitle">■ 店名由来</h2>
+			<div class="small_block">
+				<p>店名の”まっこうる”は、「 味の街 」という意味です。
+					<br />「うまッ！辛ッ！楽しッ！」をモットーに、その名に恥じぬよう味を大切にしていきたいと思っております。
+				</p>
+			</div>
+		</div>
+		<div class="block">
+			<h2 class="subtitle">■ 店舗概略</h2>
+			<div class="small_block">
+				<p>厨房は店主1人にて豊富なメニューとはいえませんが、真心込めて料理させて頂いております。
+					<br />讃岐においでの際は、是非、お立ち寄り下さいませ。
+					<br />小さな店ですので、大人数でのご来店は難しいかと思います。
+					<br />．．．5名様以上（10名様まで）になりますと1席しかご用意できません。
+					<br />ご来店前にお電話頂ければ空席情報などお知らせいたします。
+				</p>
+			</div>
+			<div class="small_block">
+				<table>
+					<tr><td class="tenpo_l">創業</td>
+						<td class="tenpo_r">2001年2月</td>
+					</tr>
+					<tr><td class="tenpo_l">住所</td>
+						<td class="tenpo_r">香川県高松市古馬場町14-2糸瀬ビル1階3号
+						<br />[ 国道11号線北側南古馬場通り、ワシントンホテルの真北 ]</td>
+					</tr>
+					<tr><td class="tenpo_l">電話</td>
+						<td class="tenpo_r">087-851-3864</td>
+					</tr>
+					<tr><td class="tenpo_l">営業時間</td>
+						<td class="tenpo_r">[ ひる ] P.M.12:00～P.M.14:00
+						<br />[ よる ] P.M.17:00～P.M.22:00</td>
+					</tr>
+					<tr><td class="tenpo_l">定休日</td>
+						<td class="tenpo_r">年中無休、ランチは日曜、祝祭日は休み。</td>
+					</tr>
+					<tr><td class="tenpo_l">座席数</td>
+						<td class="tenpo_r">全17席 [ カウンター：3席、テーブル：4×1席、6×1席、掘りごたつ：4×1席 ]</td>
+					</tr>
+					<tr><td class="tenpo_l">予約</td>
+						<td class="tenpo_r">可 ： 電話予約のみ</td>
+					</tr>
+					<tr><td class="tenpo_l">特徴</td>
+						<td class="tenpo_r">韓国料理をメインにした創作料理</td>
+					</tr>
+					<tr><td class="tenpo_l">予算</td>
+						<td class="tenpo_r">だいたい\2,500</td>
+					</tr>
+					<tr><td class="tenpo_l">駐車場</td>
+						<td class="common_td">なし ： 付近に立体駐車場、100円パーキングがあります。</td>
+					</tr>
+					<tr><td class="tenpo_l">カード</td>
+						<td class="tenpo_r">不可 ： いつもニコニコ現金払いでお願いします。</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="block">
+			<h2 class="subtitle">■ 店舗写真</h2>
+			<div class="small_block photo_padding clearfix">
+				<h3 class="sub_title">[ 店舗外観 ]</h3>
+				<div class="photo_area2">
+					<img src="image/tenpo_gaikan.JPG" class="photo" alt="店舗外観" />
+					<p class="photo_exp">
+						入り口は北に向いています。
+						<br />少々派手めな外観ですが、少し奥まっていますので、向かって左側からいらっしゃると
+								<br />気づかずに通り過ぎてしまうお客様が結構いらっしゃいます。
+								<br />唐辛子とにんにくをモチーフにした左側の看板が目印です。
+					</p>
+				</div>
+			</div>
+			<div class="small_block photo_padding clearfix">
+				<h3 class="sub_title">[ 店内 ]</h3>
+				<div class="photo_area2">
+					<img src="image/tenpo_tennai.JPG" class="photo" alt="店内" />
+					<p class="photo_exp">
+						店内はかなり照明を落としています．．．粗かくし？
+						<br />一番人気は、奥の掘りごたつ席．．．完全個室とはなっていませんがくつろげる雰囲気が人気の秘密かも。
+					</p>
+				</div>
+			</div>
+		</div>
+		<h5 class="to_top">このページトップへ</h5>
+	</div>
+	<div id="footer">
+		<p id="copyright">Copyright &copy; Ajia Gohan Makkouru All Rights Reserved.</p>
+	</div>
+</body>
+</html>
